@@ -1,2 +1,9 @@
 # FastApi
-Start learning fast api.
+----------------------------------------------------------------
+Run FastApi:
+    >> uvicorn main:app --reload
+
+----------------------------------------------------------------
+For developement only and use Virtual environment.
+    # Good for development no need to use uvicorn directly.
+    fastapi dev main.py
